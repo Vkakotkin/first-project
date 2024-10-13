@@ -40,3 +40,12 @@ C---->E[Молодец];
 D---->E[Молодец];
 ```
 < >    
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
